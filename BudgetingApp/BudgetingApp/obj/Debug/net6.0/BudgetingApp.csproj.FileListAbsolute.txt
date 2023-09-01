@@ -1,0 +1,15 @@
+C:\Users\jpwax\source\repos\BudgetingApp\BudgetingApp\bin\Debug\net6.0\BudgetingApp.exe
+C:\Users\jpwax\source\repos\BudgetingApp\BudgetingApp\bin\Debug\net6.0\BudgetingApp.deps.json
+C:\Users\jpwax\source\repos\BudgetingApp\BudgetingApp\bin\Debug\net6.0\BudgetingApp.runtimeconfig.json
+C:\Users\jpwax\source\repos\BudgetingApp\BudgetingApp\bin\Debug\net6.0\BudgetingApp.dll
+C:\Users\jpwax\source\repos\BudgetingApp\BudgetingApp\bin\Debug\net6.0\BudgetingApp.pdb
+C:\Users\jpwax\source\repos\BudgetingApp\BudgetingApp\obj\Debug\net6.0\BudgetingApp.csproj.AssemblyReference.cache
+C:\Users\jpwax\source\repos\BudgetingApp\BudgetingApp\obj\Debug\net6.0\BudgetingApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jpwax\source\repos\BudgetingApp\BudgetingApp\obj\Debug\net6.0\BudgetingApp.AssemblyInfoInputs.cache
+C:\Users\jpwax\source\repos\BudgetingApp\BudgetingApp\obj\Debug\net6.0\BudgetingApp.AssemblyInfo.cs
+C:\Users\jpwax\source\repos\BudgetingApp\BudgetingApp\obj\Debug\net6.0\BudgetingApp.csproj.CoreCompileInputs.cache
+C:\Users\jpwax\source\repos\BudgetingApp\BudgetingApp\obj\Debug\net6.0\BudgetingApp.dll
+C:\Users\jpwax\source\repos\BudgetingApp\BudgetingApp\obj\Debug\net6.0\refint\BudgetingApp.dll
+C:\Users\jpwax\source\repos\BudgetingApp\BudgetingApp\obj\Debug\net6.0\BudgetingApp.pdb
+C:\Users\jpwax\source\repos\BudgetingApp\BudgetingApp\obj\Debug\net6.0\BudgetingApp.genruntimeconfig.cache
+C:\Users\jpwax\source\repos\BudgetingApp\BudgetingApp\obj\Debug\net6.0\ref\BudgetingApp.dll

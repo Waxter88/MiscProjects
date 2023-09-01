@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="InventoyDataset" targetNamespace="http://tempuri.org/InventoyDataset.xsd" xmlns:mstns="http://tempuri.org/InventoyDataset.xsd" xmlns="http://tempuri.org/InventoyDataset.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="InventoyDataset" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_UserDSName="InventoyDataset" msprop:Generator_DataSetName="InventoyDataset">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="SportSupplier" msprop:Generator_RowEvHandlerName="SportSupplierRowChangeEventHandler" msprop:Generator_RowDeletedName="SportSupplierRowDeleted" msprop:Generator_RowDeletingName="SportSupplierRowDeleting" msprop:Generator_RowEvArgName="SportSupplierRowChangeEvent" msprop:Generator_TablePropName="SportSupplier" msprop:Generator_RowChangedName="SportSupplierRowChanged" msprop:Generator_RowChangingName="SportSupplierRowChanging" msprop:Generator_TableClassName="SportSupplierDataTable" msprop:Generator_RowClassName="SportSupplierRow" msprop:Generator_TableVarName="tableSportSupplier" msprop:Generator_UserTableName="SportSupplier">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="SportInventory" msprop:Generator_RowEvHandlerName="SportInventoryRowChangeEventHandler" msprop:Generator_RowDeletedName="SportInventoryRowDeleted" msprop:Generator_RowDeletingName="SportInventoryRowDeleting" msprop:Generator_RowEvArgName="SportInventoryRowChangeEvent" msprop:Generator_TablePropName="SportInventory" msprop:Generator_RowChangedName="SportInventoryRowChanged" msprop:Generator_RowChangingName="SportInventoryRowChanging" msprop:Generator_TableClassName="SportInventoryDataTable" msprop:Generator_RowClassName="SportInventoryRow" msprop:Generator_TableVarName="tableSportInventory" msprop:Generator_UserTableName="SportInventory">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="SportSubCategory" msprop:Generator_RowEvHandlerName="SportSubCategoryRowChangeEventHandler" msprop:Generator_RowDeletedName="SportSubCategoryRowDeleted" msprop:Generator_RowDeletingName="SportSubCategoryRowDeleting" msprop:Generator_RowEvArgName="SportSubCategoryRowChangeEvent" msprop:Generator_TablePropName="SportSubCategory" msprop:Generator_RowChangedName="SportSubCategoryRowChanged" msprop:Generator_RowChangingName="SportSubCategoryRowChanging" msprop:Generator_TableClassName="SportSubCategoryDataTable" msprop:Generator_RowClassName="SportSubCategoryRow" msprop:Generator_TableVarName="tableSportSubCategory" msprop:Generator_UserTableName="SportSubCategory">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="SportCategory" msprop:Generator_RowEvHandlerName="SportCategoryRowChangeEventHandler" msprop:Generator_RowDeletedName="SportCategoryRowDeleted" msprop:Generator_RowDeletingName="SportCategoryRowDeleting" msprop:Generator_RowEvArgName="SportCategoryRowChangeEvent" msprop:Generator_TablePropName="SportCategory" msprop:Generator_RowChangedName="SportCategoryRowChanged" msprop:Generator_RowChangingName="SportCategoryRowChanging" msprop:Generator_TableClassName="SportCategoryDataTable" msprop:Generator_RowClassName="SportCategoryRow" msprop:Generator_TableVarName="tableSportCategory" msprop:Generator_UserTableName="SportCategory">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

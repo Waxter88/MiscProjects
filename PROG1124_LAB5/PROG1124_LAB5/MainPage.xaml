@@ -1,0 +1,35 @@
+﻿<Page
+    x:Class="PROG1124_LAB5.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PROG1124_LAB5"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid RequestedTheme="Dark">
+        <TextBox x:Name="nameTxtBx" HorizontalAlignment="Left" Margin="335,85,0,0" Text="Enter Name" TextWrapping="Wrap" VerticalAlignment="Top" Height="40" Width="190" TextChanged="textChangedEventHandler"/>
+        <TextBox x:Name="screenNameTxtBx" HorizontalAlignment="Left" Margin="335,160,0,0" Text="Enter Screen Name" TextWrapping="Wrap" VerticalAlignment="Top" Height="40" Width="190" TextChanged="textChangedEventHandler"/>
+        <TextBox x:Name="joinDateTxtBx" HorizontalAlignment="Left" Margin="335,235,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="40" Width="190" TextChanged="textChangedEventHandler" IsReadOnly="True"/>
+        <TextBox x:Name="winCountTxtBx" HorizontalAlignment="Left" Margin="335,305,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="40" Width="190" IsReadOnly="True"/>
+        <TextBox x:Name="loseCountTxtBx" HorizontalAlignment="Left" Margin="335,390,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="40" Width="190" IsReadOnly="True"/>
+        <TextBlock x:Name="nameLabel" HorizontalAlignment="Left" Margin="102,96,0,0" Text="Your Name: " TextWrapping="Wrap" VerticalAlignment="Top" Width="123"/>
+        <TextBlock x:Name="screenNameLabel" HorizontalAlignment="Left" Margin="102,165,0,0" Text="Your Screen Name: " TextWrapping="Wrap" VerticalAlignment="Top" Width="178"/>
+        <TextBlock x:Name="joinDateLabel" HorizontalAlignment="Left" Margin="102,246,0,0" Text="Join Date (dd/mm/yyyy): " TextWrapping="Wrap" VerticalAlignment="Top" Width="169"/>
+        <TextBlock x:Name="winCountLabel" HorizontalAlignment="Left" Margin="102,310,0,0" Text="Win Count: " TextWrapping="Wrap" VerticalAlignment="Top" Width="123"/>
+        <TextBlock x:Name="loseCountLabel" HorizontalAlignment="Left" Margin="102,395,0,0" Text="Lose Count: " TextWrapping="Wrap" VerticalAlignment="Top" Width="123"/>
+        <Button x:Name="submitBttn" Content="Submit" Margin="335,655,0,0" VerticalAlignment="Top" Width="190" Height="60" Click="submitBttn_Click"/>
+        <Button x:Name="quitBttn" Content="QUIT" Margin="1710,72,0,0" VerticalAlignment="Top" Height="55" Width="150" Click="quitBttn_Click"/>
+        <TextBlock x:Name="winPercentageLabel" HorizontalAlignment="Left" Margin="102,475,0,0" Text="Win Percentage: " TextWrapping="Wrap" VerticalAlignment="Top" Width="123"/>
+        <TextBlock x:Name="pointsLabel" HorizontalAlignment="Left" Margin="102,554,0,0" Text="Points: " TextWrapping="Wrap" VerticalAlignment="Top" Width="123"/>
+        <TextBox x:Name="winPercentTxtBx" HorizontalAlignment="Left" Margin="335,464,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="40" Width="190" IsReadOnly="True"/>
+        <TextBox x:Name="pointsTxtBx" HorizontalAlignment="Left" Margin="335,543,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="40" Width="190" IsReadOnly="True"/>
+        <TextBlock x:Name="outputTxt" HorizontalAlignment="Left" Margin="152,860,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="115" Width="1625" FontSize="24"/>
+        <Button x:Name="winBttn" Content="WIN Game" Margin="795,61,0,0" VerticalAlignment="Top" Height="78" Width="215" Click="winBttn_Click"/>
+        <Button x:Name="loseBttn" Content="LOSE Game" Margin="795,180,0,0" VerticalAlignment="Top" Height="75" Width="215" Click="loseBttn_Click"/>
+        <TextBlock x:Name="errorTxt" HorizontalAlignment="Left" Margin="563,543,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="735" Height="80" FontSize="22"/>
+        <Button x:Name="resetBttn" Content="Reset All" Margin="563,655,0,0" VerticalAlignment="Top" Height="60" Width="192" Click="resetBttn_Click"/>
+
+    </Grid>
+</Page>

@@ -1,0 +1,7 @@
+C:\Users\jpwax\source\repos\PROG1124 Lab 3 - Jackson Pipe\PROG1124 Lab 3 - Jackson Pipe\bin\Debug\PROG1124 Lab 3 - Jackson Pipe.exe.config
+C:\Users\jpwax\source\repos\PROG1124 Lab 3 - Jackson Pipe\PROG1124 Lab 3 - Jackson Pipe\bin\Debug\PROG1124 Lab 3 - Jackson Pipe.exe
+C:\Users\jpwax\source\repos\PROG1124 Lab 3 - Jackson Pipe\PROG1124 Lab 3 - Jackson Pipe\bin\Debug\PROG1124 Lab 3 - Jackson Pipe.pdb
+C:\Users\jpwax\source\repos\PROG1124 Lab 3 - Jackson Pipe\PROG1124 Lab 3 - Jackson Pipe\obj\Debug\PROG1124 Lab 3 - Jackson Pipe.csproj.AssemblyReference.cache
+C:\Users\jpwax\source\repos\PROG1124 Lab 3 - Jackson Pipe\PROG1124 Lab 3 - Jackson Pipe\obj\Debug\PROG1124 Lab 3 - Jackson Pipe.csproj.CoreCompileInputs.cache
+C:\Users\jpwax\source\repos\PROG1124 Lab 3 - Jackson Pipe\PROG1124 Lab 3 - Jackson Pipe\obj\Debug\PROG1124 Lab 3 - Jackson Pipe.exe
+C:\Users\jpwax\source\repos\PROG1124 Lab 3 - Jackson Pipe\PROG1124 Lab 3 - Jackson Pipe\obj\Debug\PROG1124 Lab 3 - Jackson Pipe.pdb

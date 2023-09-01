@@ -1,0 +1,9 @@
+C:\Users\jpwax\source\repos\PROG1210_A3_Library\PROG1210_A3_Library\bin\Debug\Emmas.mdf
+C:\Users\jpwax\source\repos\PROG1210_A3_Library\PROG1210_A3_Library\bin\Debug\Emmas_log.ldf
+C:\Users\jpwax\source\repos\PROG1210_A3_Library\PROG1210_A3_Library\bin\Debug\PROG1210_A3_Library.dll.config
+C:\Users\jpwax\source\repos\PROG1210_A3_Library\PROG1210_A3_Library\bin\Debug\PROG1210_A3_Library.dll
+C:\Users\jpwax\source\repos\PROG1210_A3_Library\PROG1210_A3_Library\bin\Debug\PROG1210_A3_Library.pdb
+C:\Users\jpwax\source\repos\PROG1210_A3_Library\PROG1210_A3_Library\obj\Debug\PROG1210_A3_Library.csproj.AssemblyReference.cache
+C:\Users\jpwax\source\repos\PROG1210_A3_Library\PROG1210_A3_Library\obj\Debug\PROG1210_A3_Library.csproj.CoreCompileInputs.cache
+C:\Users\jpwax\source\repos\PROG1210_A3_Library\PROG1210_A3_Library\obj\Debug\PROG1210_A3_Library.dll
+C:\Users\jpwax\source\repos\PROG1210_A3_Library\PROG1210_A3_Library\obj\Debug\PROG1210_A3_Library.pdb

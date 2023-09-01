@@ -1,0 +1,15 @@
+C:\Users\jpwax\source\repos\Budgeting_Program\Budgeting_Program\bin\Debug\net6.0\Budgeting_Program.exe
+C:\Users\jpwax\source\repos\Budgeting_Program\Budgeting_Program\bin\Debug\net6.0\Budgeting_Program.deps.json
+C:\Users\jpwax\source\repos\Budgeting_Program\Budgeting_Program\bin\Debug\net6.0\Budgeting_Program.runtimeconfig.json
+C:\Users\jpwax\source\repos\Budgeting_Program\Budgeting_Program\bin\Debug\net6.0\Budgeting_Program.dll
+C:\Users\jpwax\source\repos\Budgeting_Program\Budgeting_Program\bin\Debug\net6.0\Budgeting_Program.pdb
+C:\Users\jpwax\source\repos\Budgeting_Program\Budgeting_Program\obj\Debug\net6.0\Budgeting_Program.csproj.AssemblyReference.cache
+C:\Users\jpwax\source\repos\Budgeting_Program\Budgeting_Program\obj\Debug\net6.0\Budgeting_Program.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jpwax\source\repos\Budgeting_Program\Budgeting_Program\obj\Debug\net6.0\Budgeting_Program.AssemblyInfoInputs.cache
+C:\Users\jpwax\source\repos\Budgeting_Program\Budgeting_Program\obj\Debug\net6.0\Budgeting_Program.AssemblyInfo.cs
+C:\Users\jpwax\source\repos\Budgeting_Program\Budgeting_Program\obj\Debug\net6.0\Budgeting_Program.csproj.CoreCompileInputs.cache
+C:\Users\jpwax\source\repos\Budgeting_Program\Budgeting_Program\obj\Debug\net6.0\Budgeting_Program.dll
+C:\Users\jpwax\source\repos\Budgeting_Program\Budgeting_Program\obj\Debug\net6.0\refint\Budgeting_Program.dll
+C:\Users\jpwax\source\repos\Budgeting_Program\Budgeting_Program\obj\Debug\net6.0\Budgeting_Program.pdb
+C:\Users\jpwax\source\repos\Budgeting_Program\Budgeting_Program\obj\Debug\net6.0\Budgeting_Program.genruntimeconfig.cache
+C:\Users\jpwax\source\repos\Budgeting_Program\Budgeting_Program\obj\Debug\net6.0\ref\Budgeting_Program.dll

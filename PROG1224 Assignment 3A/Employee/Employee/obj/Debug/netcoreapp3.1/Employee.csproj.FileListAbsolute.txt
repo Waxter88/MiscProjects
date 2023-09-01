@@ -1,0 +1,10 @@
+C:\Users\jpwax\source\repos\Employee\Employee\bin\Debug\netcoreapp3.1\Employee.deps.json
+C:\Users\jpwax\source\repos\Employee\Employee\bin\Debug\netcoreapp3.1\Employee.dll
+C:\Users\jpwax\source\repos\Employee\Employee\bin\Debug\netcoreapp3.1\Employee.pdb
+C:\Users\jpwax\source\repos\Employee\Employee\obj\Debug\netcoreapp3.1\Employee.csproj.AssemblyReference.cache
+C:\Users\jpwax\source\repos\Employee\Employee\obj\Debug\netcoreapp3.1\Employee.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jpwax\source\repos\Employee\Employee\obj\Debug\netcoreapp3.1\Employee.AssemblyInfoInputs.cache
+C:\Users\jpwax\source\repos\Employee\Employee\obj\Debug\netcoreapp3.1\Employee.AssemblyInfo.cs
+C:\Users\jpwax\source\repos\Employee\Employee\obj\Debug\netcoreapp3.1\Employee.csproj.CoreCompileInputs.cache
+C:\Users\jpwax\source\repos\Employee\Employee\obj\Debug\netcoreapp3.1\Employee.dll
+C:\Users\jpwax\source\repos\Employee\Employee\obj\Debug\netcoreapp3.1\Employee.pdb

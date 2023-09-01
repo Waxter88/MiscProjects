@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32126.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PROG1870-Lab4-JacksonPipe", "PROG1870-Lab4-JacksonPipe\PROG1870-Lab4-JacksonPipe.pyproj", "{BEA3A989-B807-476B-8483-0D68F151542E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BEA3A989-B807-476B-8483-0D68F151542E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEA3A989-B807-476B-8483-0D68F151542E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7585760E-70A6-408D-AC65-9C0AB2D311C6}
+	EndGlobalSection
+EndGlobal

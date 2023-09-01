@@ -1,0 +1,9 @@
+C:\Users\jpwax\source\repos\EmmasClassLibraryPROG1210\EmmasClassLibraryPROG1210\bin\Debug\Emmas.mdf
+C:\Users\jpwax\source\repos\EmmasClassLibraryPROG1210\EmmasClassLibraryPROG1210\bin\Debug\Emmas_log.ldf
+C:\Users\jpwax\source\repos\EmmasClassLibraryPROG1210\EmmasClassLibraryPROG1210\bin\Debug\EmmasClassLibraryPROG1210.dll.config
+C:\Users\jpwax\source\repos\EmmasClassLibraryPROG1210\EmmasClassLibraryPROG1210\bin\Debug\EmmasClassLibraryPROG1210.dll
+C:\Users\jpwax\source\repos\EmmasClassLibraryPROG1210\EmmasClassLibraryPROG1210\bin\Debug\EmmasClassLibraryPROG1210.pdb
+C:\Users\jpwax\source\repos\EmmasClassLibraryPROG1210\EmmasClassLibraryPROG1210\obj\Debug\EmmasClassLibraryPROG1210.csproj.AssemblyReference.cache
+C:\Users\jpwax\source\repos\EmmasClassLibraryPROG1210\EmmasClassLibraryPROG1210\obj\Debug\EmmasClassLibraryPROG1210.csproj.CoreCompileInputs.cache
+C:\Users\jpwax\source\repos\EmmasClassLibraryPROG1210\EmmasClassLibraryPROG1210\obj\Debug\EmmasClassLibraryPROG1210.dll
+C:\Users\jpwax\source\repos\EmmasClassLibraryPROG1210\EmmasClassLibraryPROG1210\obj\Debug\EmmasClassLibraryPROG1210.pdb

@@ -1,0 +1,2 @@
+C:\Users\jpwax\source\repos\PROG1198-Lab4\LeagueUI\LeagueUI.csproj;x86
+C:\Users\jpwax\source\repos\PROG1198-Lab4\PROG1198-Lab4\PROG1198-Lab4.csproj;x86

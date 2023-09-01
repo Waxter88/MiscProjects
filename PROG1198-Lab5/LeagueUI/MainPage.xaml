@@ -1,0 +1,33 @@
+﻿<Page
+    x:Class="LeagueUI.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:LeagueUI"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid RequestedTheme="Dark">
+        <ListView x:Name="listViewTeams" Margin="1010,10,0,10" SelectionChanged="listViewTeams_SelectionChanged"/>
+        <TextBlock x:Name="txtTeamID" HorizontalAlignment="Left" Margin="99,62,0,0" Text="TeamID" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20"/>
+        <TextBox x:Name="txtBxTeamID" HorizontalAlignment="Left" Margin="340,55,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="350" FontSize="20"/>
+        <TextBlock x:Name="txtTeamName" HorizontalAlignment="Left" Margin="99,107,0,0" Text="TeamName" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20"/>
+        <TextBox x:Name="txtBxTeamName" HorizontalAlignment="Left" Margin="340,100,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="350" FontSize="20"/>
+        <TextBlock x:Name="txtTeamCity" HorizontalAlignment="Left" Margin="99,152,0,0" Text="TeamCity" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20"/>
+        <TextBox x:Name="txtBxTeamCity" HorizontalAlignment="Left" Margin="340,145,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="350" FontSize="20"/>
+        <TextBlock x:Name="txtTeamStadium" HorizontalAlignment="Left" Margin="99,197,0,0" Text="TeamStadium" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20"/>
+        <TextBox x:Name="txtBxTeamStadium" HorizontalAlignment="Left" Margin="340,190,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="350" FontSize="20"/>
+        <TextBlock x:Name="txtTeamStadiumCapacity" HorizontalAlignment="Left" Margin="99,242,0,0" Text="TeamStadiumCapacity" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20"/>
+        <TextBox x:Name="txtBxTeamStadiumCapacity" HorizontalAlignment="Left" Margin="340,235,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="350" FontSize="20"/>
+        <Button x:Name="bttnSubmit" Content="Submit Changes" Margin="99,330,0,0" VerticalAlignment="Top" Width="176" Click="bttnSubmit_Click"/>
+        <TextBlock x:Name="txtFilterByLabel" HorizontalAlignment="Left" Margin="99,430,0,0" Text="Filter Teams By:" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20"/>
+        <TextBlock x:Name="txtTeamStadiumFilterLabel" HorizontalAlignment="Left" Margin="99,0,0,0" Text="TeamStadium" TextWrapping="Wrap" VerticalAlignment="Center" FontSize="20"/>
+        <TextBox x:Name="txtBxTeamStadiumFilter" HorizontalAlignment="Left" Margin="340,0,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Center" Width="350" FontSize="20"/>
+        <TextBlock x:Name="txtTeamStadiumCapacityFilterLabel" HorizontalAlignment="Left" Margin="99,532,0,0" Text="TeamStadiumCapacity" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20"/>
+        <TextBox x:Name="txtBxTeamStadiumCapacityFilter" HorizontalAlignment="Left" Margin="340,525,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="350" FontSize="20"/>
+        <Button x:Name="bttnSubmitFilter" Content="Filter" Margin="99,625,0,0" VerticalAlignment="Top" Width="176" Height="30" Click="bttnSubmitFilter_Click"/>
+        <TextBlock x:Name="txtError" HorizontalAlignment="Left" Margin="99,815,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="605" Height="50" FontSize="18" FontWeight="Bold" Foreground="Red"/>
+
+    </Grid>
+</Page>

@@ -1,0 +1,36 @@
+﻿<Page
+    x:Class="Lab4JacksonPipe.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Lab4JacksonPipe"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <ListView x:ConnectionId='2' x:Name="employeeListView" Margin="1200,10,10,-10"                                                     />
+        <ComboBox x:ConnectionId='3' x:Name="employeeTypeFilter" Margin="65,55,0,0" Width="185"                                                       />
+        <TextBlock x:ConnectionId='4' x:Name="txtEmployeeTypeFilter" HorizontalAlignment="Left" Margin="65,25,0,0" Text="Filter By Employee Type:" TextWrapping="Wrap" VerticalAlignment="Top" Width="253" FontSize="20"/>
+        <TextBox x:ConnectionId='5' x:Name="txtBxFilterEmployeeName" HorizontalAlignment="Left" Margin="65,165,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="185"                                                  />
+        <TextBlock x:ConnectionId='6' x:Name="txtFilterEmployeeName" HorizontalAlignment="Left" Margin="65,125,0,0" Text="Filter By Employee Name: " TextWrapping="Wrap" VerticalAlignment="Top" Height="31" Width="265" FontSize="20"/>
+        <DatePicker x:ConnectionId='7' x:Name="dateFilter" Margin="65,283,0,0" VerticalAlignment="Top"/>
+        <TextBlock x:ConnectionId='8' x:Name="txtFilterByDate" HorizontalAlignment="Left" Margin="65,240,0,0" Text="Filter By Employee Start Date: " TextWrapping="Wrap" VerticalAlignment="Top" Width="296" FontSize="20"/>
+        <TextBlock x:ConnectionId='9' x:Name="txtSelectedEmployee" HorizontalAlignment="Left" Margin="65,581,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="300" Width="275"/>
+        <Button x:ConnectionId='10' x:Name="bttnSubmit" Content="Create New Employee" Margin="27,910,0,0" VerticalAlignment="Top" Height="40" Width="168"                         />
+        <TextBox x:ConnectionId='11' x:Name="txtBxFirstName" HorizontalAlignment="Left" Margin="370,581,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="98"/>
+        <TextBox x:ConnectionId='12' x:Name="txtBxLastName" HorizontalAlignment="Left" Margin="370,668,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="98"/>
+        <TextBlock x:ConnectionId='13' x:Name="txtFirstName" HorizontalAlignment="Left" Margin="370,550,0,0" Text="Enter Employee First Name:" TextWrapping="Wrap" VerticalAlignment="Top" Height="26" Width="189"/>
+        <TextBlock x:ConnectionId='14' x:Name="txtLastName" HorizontalAlignment="Left" Margin="370,644,0,0" Text="Enter Employee Last Name:" TextWrapping="Wrap" VerticalAlignment="Top" Height="26" Width="189"/>
+        <ComboBox x:ConnectionId='15' x:Name="comboBxEmployeeType" Margin="365,835,0,0" Width="120"                                                         SelectedIndex="0"/>
+        <TextBlock x:ConnectionId='16' x:Name="txtEmployeeType" HorizontalAlignment="Left" Margin="370,810,0,0" Text="Enter Employee Type:" TextWrapping="Wrap" VerticalAlignment="Top" Width="135"/>
+        <TextBlock x:ConnectionId='17' x:Name="txtEmployeeSIN" HorizontalAlignment="Left" Margin="370,725,0,0" Text="Enter Employee SIN: " TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBox x:ConnectionId='18' x:Name="txtBxEmployeeSIN" HorizontalAlignment="Left" Margin="365,755,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:ConnectionId='19' x:Name="bttnDisplayPayrollInfo" Content="Show PayRoll" Margin="213,910,0,0" VerticalAlignment="Top" Width="111" Height="40"                                     />
+        <ListView x:ConnectionId='20' x:Name="listBxPayRoll" Margin="570,0,750,0"/>
+        <Button x:ConnectionId='21' x:Name="bttnSubmitEdit" Content="Submit Edit" Margin="345,910,0,0" VerticalAlignment="Top" Width="109" Height="36"                             />
+
+
+    </Grid>
+</Page>
+

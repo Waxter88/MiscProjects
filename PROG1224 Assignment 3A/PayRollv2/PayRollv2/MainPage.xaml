@@ -1,0 +1,16 @@
+﻿<Page
+    x:Class="PayRollv2.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PayRollv2"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Button x:Name="btnSubmit" Content="GO" Margin="90,95,0,0" VerticalAlignment="Top" Width="210" Click="btnSubmit_Click"/>
+        <TextBlock x:Name="txtOutput" HorizontalAlignment="Left" Margin="555,0,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Center" Height="980" Width="935" FontSize="18"/>
+
+    </Grid>
+</Page>

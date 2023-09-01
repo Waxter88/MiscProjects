@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PROG1870 - Pythonic Style Challenge 3", "PROG1870 - Pythonic Style Challenge 3\PROG1870 - Pythonic Style Challenge 3.pyproj", "{25AB1F8B-09CE-4E9C-A6A8-29C20754F9BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{25AB1F8B-09CE-4E9C-A6A8-29C20754F9BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25AB1F8B-09CE-4E9C-A6A8-29C20754F9BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F39EFFDE-2DED-4092-88B1-A8738FB44B8B}
+	EndGlobalSection
+EndGlobal

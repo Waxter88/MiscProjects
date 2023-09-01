@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="InventoyDataset" targetNamespace="http://tempuri.org/InventoyDataset.xsd" xmlns:mstns="http://tempuri.org/InventoyDataset.xsd" xmlns="http://tempuri.org/InventoyDataset.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="SportMotors_12ConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="SportMotors_12ConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.PROG1210_Assignment2._1.Properties.Settings.GlobalReference.Default.SportMotors_12ConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="SportSupplierTableAdapter" GeneratorDataComponentClassName="SportSupplierTableAdapter" Name="SportSupplier" UserDataComponentName="SportSupplierTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="SportMotors_12ConnectionString (Settings)" DbObjectName="dbo.SportSupplier" DbObjectType="Table" GenerateMethods="Get" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="GetData">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT                      SupplierID, SupplierName, SupplierContactName, SupplierContactPhone, SupplierAddress, SupplierCity, StateAbbreviation, SupplierZip, SupplierPhone
+FROM                         SportSupplier</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="SupplierID" DataSetColumn="SupplierID" />
+              <Mapping SourceColumn="SupplierName" DataSetColumn="SupplierName" />
+              <Mapping SourceColumn="SupplierContactName" DataSetColumn="SupplierContactName" />
+              <Mapping SourceColumn="SupplierContactPhone" DataSetColumn="SupplierContactPhone" />
+              <Mapping SourceColumn="SupplierAddress" DataSetColumn="SupplierAddress" />
+              <Mapping SourceColumn="SupplierCity" DataSetColumn="SupplierCity" />
+              <Mapping SourceColumn="StateAbbreviation" DataSetColumn="StateAbbreviation" />
+              <Mapping SourceColumn="SupplierZip" DataSetColumn="SupplierZip" />
+              <Mapping SourceColumn="SupplierPhone" DataSetColumn="SupplierPhone" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="DataTable1TableAdapter" GeneratorDataComponentClassName="DataTable1TableAdapter" Name="DataTable1" UserDataComponentName="DataTable1TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="SportMotors_12ConnectionString (Settings)" DbObjectType="Unknown" GenerateMethods="Get" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="GetData">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT                      SportInventory.InventoryDescription, SportInventory.InventorySize, SportInventory.ColorDescription, SportInventory.InventoryQOH, SportInventory.InventorySuggestedPrice, 
+                                      SportCategory.CategoryDescription, SportSubCategory.SubCategoryDescription, SportInventory.SupplierID
+FROM                         SportInventory INNER JOIN
+                                      SportCategory ON SportInventory.CategoryID = SportCategory.CategoryID INNER JOIN
+                                      SportSubCategory ON SportInventory.SubCategoryID = SportSubCategory.SubCategoryID AND SportCategory.CategoryID = SportSubCategory.CategoryID
+WHERE                       (SportInventory.SupplierID = @Param1)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="Param1" ColumnName="SupplierID" DataSourceName="[C:\USERS\JPWAX\SOURCE\REPOS\PROG1210-ASSIGNMENT2.1\PROG1210-ASSIGNMENT2.1\SPORTMOTORS_12.MDF].dbo.SportInventory" DataTypeServer="bigint" DbType="Int64" Direction="Input" ParameterName="@Param1" Precision="0" ProviderType="BigInt" Scale="0" Size="8" SourceColumn="SupplierID" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="InventoryDescription" DataSetColumn="InventoryDescription" />
+              <Mapping SourceColumn="InventorySize" DataSetColumn="InventorySize" />
+              <Mapping SourceColumn="ColorDescription" DataSetColumn="ColorDescription" />
+              <Mapping SourceColumn="InventoryQOH" DataSetColumn="InventoryQOH" />
+              <Mapping SourceColumn="InventorySuggestedPrice" DataSetColumn="InventorySuggestedPrice" />
+              <Mapping SourceColumn="CategoryDescription" DataSetColumn="CategoryDescription" />
+              <Mapping SourceColumn="SubCategoryDescription" DataSetColumn="SubCategoryDescription" />
+              <Mapping SourceColumn="SupplierID" DataSetColumn="SupplierID" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="InventoyDataset" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_UserDSName="InventoyDataset" msprop:Generator_DataSetName="InventoyDataset">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="SportSupplier" msprop:Generator_RowEvHandlerName="SportSupplierRowChangeEventHandler" msprop:Generator_RowDeletedName="SportSupplierRowDeleted" msprop:Generator_RowDeletingName="SportSupplierRowDeleting" msprop:Generator_RowEvArgName="SportSupplierRowChangeEvent" msprop:Generator_TablePropName="SportSupplier" msprop:Generator_RowChangedName="SportSupplierRowChanged" msprop:Generator_RowChangingName="SportSupplierRowChanging" msprop:Generator_TableClassName="SportSupplierDataTable" msprop:Generator_RowClassName="SportSupplierRow" msprop:Generator_TableVarName="tableSportSupplier" msprop:Generator_UserTableName="SportSupplier">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SupplierID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnPropNameInRow="SupplierID" msprop:Generator_ColumnPropNameInTable="SupplierIDColumn" msprop:Generator_ColumnVarNameInTable="columnSupplierID" msprop:Generator_UserColumnName="SupplierID" type="xs:long" />
+              <xs:element name="SupplierName" msprop:Generator_ColumnPropNameInRow="SupplierName" msprop:Generator_ColumnPropNameInTable="SupplierNameColumn" msprop:Generator_ColumnVarNameInTable="columnSupplierName" msprop:Generator_UserColumnName="SupplierName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SupplierContactName" msprop:Generator_ColumnPropNameInRow="SupplierContactName" msprop:Generator_ColumnPropNameInTable="SupplierContactNameColumn" msprop:Generator_ColumnVarNameInTable="columnSupplierContactName" msprop:Generator_UserColumnName="SupplierContactName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="60" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SupplierContactPhone" msprop:Generator_ColumnPropNameInRow="SupplierContactPhone" msprop:Generator_ColumnPropNameInTable="SupplierContactPhoneColumn" msprop:Generator_ColumnVarNameInTable="columnSupplierContactPhone" msprop:Generator_UserColumnName="SupplierContactPhone" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SupplierAddress" msprop:Generator_ColumnPropNameInRow="SupplierAddress" msprop:Generator_ColumnPropNameInTable="SupplierAddressColumn" msprop:Generator_ColumnVarNameInTable="columnSupplierAddress" msprop:Generator_UserColumnName="SupplierAddress" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SupplierCity" msprop:Generator_ColumnPropNameInRow="SupplierCity" msprop:Generator_ColumnPropNameInTable="SupplierCityColumn" msprop:Generator_ColumnVarNameInTable="columnSupplierCity" msprop:Generator_UserColumnName="SupplierCity" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="StateAbbreviation" msprop:Generator_ColumnPropNameInRow="StateAbbreviation" msprop:Generator_ColumnPropNameInTable="StateAbbreviationColumn" msprop:Generator_ColumnVarNameInTable="columnStateAbbreviation" msprop:Generator_UserColumnName="StateAbbreviation" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SupplierZip" msprop:Generator_ColumnPropNameInRow="SupplierZip" msprop:Generator_ColumnPropNameInTable="SupplierZipColumn" msprop:Generator_ColumnVarNameInTable="columnSupplierZip" msprop:Generator_UserColumnName="SupplierZip" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SupplierPhone" msprop:Generator_ColumnPropNameInRow="SupplierPhone" msprop:Generator_ColumnPropNameInTable="SupplierPhoneColumn" msprop:Generator_ColumnVarNameInTable="columnSupplierPhone" msprop:Generator_UserColumnName="SupplierPhone" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DataTable1" msprop:Generator_RowEvHandlerName="DataTable1RowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable1RowDeleted" msprop:Generator_RowDeletingName="DataTable1RowDeleting" msprop:Generator_RowEvArgName="DataTable1RowChangeEvent" msprop:Generator_TablePropName="DataTable1" msprop:Generator_RowChangedName="DataTable1RowChanged" msprop:Generator_RowChangingName="DataTable1RowChanging" msprop:Generator_TableClassName="DataTable1DataTable" msprop:Generator_RowClassName="DataTable1Row" msprop:Generator_TableVarName="tableDataTable1" msprop:Generator_UserTableName="DataTable1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="InventoryDescription" msprop:Generator_ColumnPropNameInRow="InventoryDescription" msprop:Generator_ColumnPropNameInTable="InventoryDescriptionColumn" msprop:Generator_ColumnVarNameInTable="columnInventoryDescription" msprop:Generator_UserColumnName="InventoryDescription" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="InventorySize" msprop:Generator_ColumnPropNameInRow="InventorySize" msprop:Generator_ColumnPropNameInTable="InventorySizeColumn" msprop:Generator_ColumnVarNameInTable="columnInventorySize" msprop:Generator_UserColumnName="InventorySize" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ColorDescription" msprop:Generator_ColumnPropNameInRow="ColorDescription" msprop:Generator_ColumnPropNameInTable="ColorDescriptionColumn" msprop:Generator_ColumnVarNameInTable="columnColorDescription" msprop:Generator_UserColumnName="ColorDescription" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="InventoryQOH" msprop:Generator_ColumnPropNameInRow="InventoryQOH" msprop:Generator_ColumnPropNameInTable="InventoryQOHColumn" msprop:Generator_ColumnVarNameInTable="columnInventoryQOH" msprop:Generator_UserColumnName="InventoryQOH" type="xs:int" />
+              <xs:element name="InventorySuggestedPrice" msprop:Generator_ColumnPropNameInRow="InventorySuggestedPrice" msprop:Generator_ColumnPropNameInTable="InventorySuggestedPriceColumn" msprop:Generator_ColumnVarNameInTable="columnInventorySuggestedPrice" msprop:Generator_UserColumnName="InventorySuggestedPrice" type="xs:decimal" minOccurs="0" />
+              <xs:element name="CategoryDescription" msprop:Generator_ColumnPropNameInRow="CategoryDescription" msprop:Generator_ColumnPropNameInTable="CategoryDescriptionColumn" msprop:Generator_ColumnVarNameInTable="columnCategoryDescription" msprop:Generator_UserColumnName="CategoryDescription">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SubCategoryDescription" msprop:Generator_ColumnPropNameInRow="SubCategoryDescription" msprop:Generator_ColumnPropNameInTable="SubCategoryDescriptionColumn" msprop:Generator_ColumnVarNameInTable="columnSubCategoryDescription" msprop:Generator_UserColumnName="SubCategoryDescription">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SupplierID" msprop:Generator_ColumnPropNameInRow="SupplierID" msprop:Generator_ColumnPropNameInTable="SupplierIDColumn" msprop:Generator_ColumnVarNameInTable="columnSupplierID" msprop:Generator_UserColumnName="SupplierID" type="xs:long" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:SportSupplier" />
+      <xs:field xpath="mstns:SupplierID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

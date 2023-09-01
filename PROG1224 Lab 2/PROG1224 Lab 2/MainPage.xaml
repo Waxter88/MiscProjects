@@ -1,0 +1,16 @@
+﻿<Page
+    x:Class="PROG1224_Lab_2.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PROG1224_Lab_2"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid RequestedTheme="Dark">
+        <TextBlock x:Name="txtResult" HorizontalAlignment="Left" Margin="228,180,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="810" Width="1048" FontSize="14"/>
+        <Button x:Name="btnSubmit" Content="Test Code" Margin="0,10,0,0" VerticalAlignment="Top" HorizontalAlignment="Center" Height="92" Width="358" Click="btnSubmit_Click"/>
+
+    </Grid>
+</Page>

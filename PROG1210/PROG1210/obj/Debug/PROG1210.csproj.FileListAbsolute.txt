@@ -1,0 +1,9 @@
+C:\Users\jpwax\source\repos\PROG1210\PROG1210\bin\Debug\Movies.mdf
+C:\Users\jpwax\source\repos\PROG1210\PROG1210\bin\Debug\Movies_log.ldf
+C:\Users\jpwax\source\repos\PROG1210\PROG1210\bin\Debug\PROG1210.dll.config
+C:\Users\jpwax\source\repos\PROG1210\PROG1210\bin\Debug\PROG1210.dll
+C:\Users\jpwax\source\repos\PROG1210\PROG1210\bin\Debug\PROG1210.pdb
+C:\Users\jpwax\source\repos\PROG1210\PROG1210\obj\Debug\PROG1210.csproj.AssemblyReference.cache
+C:\Users\jpwax\source\repos\PROG1210\PROG1210\obj\Debug\PROG1210.csproj.CoreCompileInputs.cache
+C:\Users\jpwax\source\repos\PROG1210\PROG1210\obj\Debug\PROG1210.dll
+C:\Users\jpwax\source\repos\PROG1210\PROG1210\obj\Debug\PROG1210.pdb

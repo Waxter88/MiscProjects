@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32811.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmmasClassLibrary", "EmmasClassLibrary\EmmasClassLibrary.csproj", "{81CB03EC-68DB-425C-A537-A5FA6DC503F7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81CB03EC-68DB-425C-A537-A5FA6DC503F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81CB03EC-68DB-425C-A537-A5FA6DC503F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81CB03EC-68DB-425C-A537-A5FA6DC503F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81CB03EC-68DB-425C-A537-A5FA6DC503F7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {16277F9A-8A6F-4660-9CD3-26C1E90DE84B}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,9 @@
+C:\Users\jpwax\source\repos\PROG1210-Assignment4-ClassLibrary\PROG1210-Assignment4-ClassLibrary\bin\Debug\Emmas.mdf
+C:\Users\jpwax\source\repos\PROG1210-Assignment4-ClassLibrary\PROG1210-Assignment4-ClassLibrary\bin\Debug\Emmas_log.ldf
+C:\Users\jpwax\source\repos\PROG1210-Assignment4-ClassLibrary\PROG1210-Assignment4-ClassLibrary\bin\Debug\PROG1210-Assignment4-ClassLibrary.dll.config
+C:\Users\jpwax\source\repos\PROG1210-Assignment4-ClassLibrary\PROG1210-Assignment4-ClassLibrary\bin\Debug\PROG1210-Assignment4-ClassLibrary.dll
+C:\Users\jpwax\source\repos\PROG1210-Assignment4-ClassLibrary\PROG1210-Assignment4-ClassLibrary\bin\Debug\PROG1210-Assignment4-ClassLibrary.pdb
+C:\Users\jpwax\source\repos\PROG1210-Assignment4-ClassLibrary\PROG1210-Assignment4-ClassLibrary\obj\Debug\PROG1210-Assignment4-ClassLibrary.csproj.AssemblyReference.cache
+C:\Users\jpwax\source\repos\PROG1210-Assignment4-ClassLibrary\PROG1210-Assignment4-ClassLibrary\obj\Debug\PROG1210-Assignment4-ClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\jpwax\source\repos\PROG1210-Assignment4-ClassLibrary\PROG1210-Assignment4-ClassLibrary\obj\Debug\PROG1210-Assignment4-ClassLibrary.dll
+C:\Users\jpwax\source\repos\PROG1210-Assignment4-ClassLibrary\PROG1210-Assignment4-ClassLibrary\obj\Debug\PROG1210-Assignment4-ClassLibrary.pdb

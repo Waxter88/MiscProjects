@@ -1,0 +1,45 @@
+C:\Users\jpwax\source\repos\PROG1224 Lab 2\PROG1224 Lab 2\bin\x86\Debug\App.xbf
+C:\Users\jpwax\source\repos\PROG1224 Lab 2\PROG1224 Lab 2\bin\x86\Debug\MainPage.xbf
+C:\Users\jpwax\source\repos\PROG1224 Lab 2\PROG1224 Lab 2\bin\x86\Debug\PROG1224 Lab 2.xr.xml
+C:\Users\jpwax\source\repos\PROG1224 Lab 2\PROG1224 Lab 2\bin\x86\Debug\PROG1224 Lab 2.exe
+C:\Users\jpwax\source\repos\PROG1224 Lab 2\PROG1224 Lab 2\bin\x86\Debug\PROG1224 Lab 2.pdb
+C:\Users\jpwax\source\repos\PROG1224 Lab 2\PROG1224 Lab 2\bin\x86\Debug\resources.pri
+C:\Users\jpwax\source\repos\PROG1224 Lab 2\PROG1224 Lab 2\bin\x86\Debug\AppxManifest.xml
+C:\Users\jpwax\source\repos\PROG1224 Lab 2\PROG1224 Lab 2\bin\x86\Debug\Core\AppxManifest.xml
+C:\Users\jpwax\source\repos\PROG1224 Lab 2\PROG1224 Lab 2\bin\x86\Debug\Core\PROG1224 Lab 2.exe
+C:\Users\jpwax\source\repos\PROG1224 Lab 2\PROG1224 Lab 2\bin\x86\Debug\PROG1224 Lab 2.build.appxrecipe
+C:\Users\jpwax\source\repos\PROG1224 Lab 2\PROG1224 Lab 2\bin\x86\Debug\System.Runtime.dll
+C:\Users\jpwax\source\repos\PROG1224 Lab 2\PROG1224 Lab 2\bin\x86\Debug\Microsoft.UI.Xaml.Markup.winmd
+C:\Users\jpwax\source\repos\PROG1224 Lab 2\PROG1224 Lab 2\obj\x86\Debug\PROG1224 Lab 2.csproj.AssemblyReference.cache
+C:\Users\jpwax\source\repos\PROG1224 Lab 2\PROG1224 Lab 2\obj\x86\Debug\App.g.i.cs
+C:\Users\jpwax\source\repos\PROG1224 Lab 2\PROG1224 Lab 2\obj\x86\Debug\App.g.cs
+C:\Users\jpwax\source\repos\PROG1224 Lab 2\PROG1224 Lab 2\obj\x86\Debug\MainPage.g.i.cs
+C:\Users\jpwax\source\repos\PROG1224 Lab 2\PROG1224 Lab 2\obj\x86\Debug\MainPage.g.cs
+C:\Users\jpwax\source\repos\PROG1224 Lab 2\PROG1224 Lab 2\obj\x86\Debug\XamlTypeInfo.g.cs
+C:\Users\jpwax\source\repos\PROG1224 Lab 2\PROG1224 Lab 2\obj\x86\Debug\App.xaml
+C:\Users\jpwax\source\repos\PROG1224 Lab 2\PROG1224 Lab 2\obj\x86\Debug\MainPage.xaml
+C:\Users\jpwax\source\repos\PROG1224 Lab 2\PROG1224 Lab 2\obj\x86\Debug\App.xbf
+C:\Users\jpwax\source\repos\PROG1224 Lab 2\PROG1224 Lab 2\obj\x86\Debug\MainPage.xbf
+C:\Users\jpwax\source\repos\PROG1224 Lab 2\PROG1224 Lab 2\obj\x86\Debug\XamlSaveStateFile.xml
+C:\Users\jpwax\source\repos\PROG1224 Lab 2\PROG1224 Lab 2\obj\x86\Debug\PROG1224 Lab 2.csproj.CoreCompileInputs.cache
+C:\Users\jpwax\source\repos\PROG1224 Lab 2\PROG1224 Lab 2\obj\x86\Debug\PROG1224 Lab 2.csproj.CopyComplete
+C:\Users\jpwax\source\repos\PROG1224 Lab 2\PROG1224 Lab 2\obj\x86\Debug\PROG1224 Lab 2.exe
+C:\Users\jpwax\source\repos\PROG1224 Lab 2\PROG1224 Lab 2\obj\x86\Debug\PROG1224 Lab 2.pdb
+C:\Users\jpwax\source\repos\PROG1224 Lab 2\PROG1224 Lab 2\obj\x86\Debug\ResourceHandlingTask.state
+C:\Users\jpwax\source\repos\PROG1224 Lab 2\PROG1224 Lab 2\obj\x86\Debug\priconfig.xml
+C:\Users\jpwax\source\repos\PROG1224 Lab 2\PROG1224 Lab 2\obj\x86\Debug\priconfig.xml.intermediate
+C:\Users\jpwax\source\repos\PROG1224 Lab 2\PROG1224 Lab 2\obj\x86\Debug\unfiltered.layout.resfiles
+C:\Users\jpwax\source\repos\PROG1224 Lab 2\PROG1224 Lab 2\obj\x86\Debug\unfiltered.layout.resfiles.intermediate
+C:\Users\jpwax\source\repos\PROG1224 Lab 2\PROG1224 Lab 2\obj\x86\Debug\filtered.layout.resfiles
+C:\Users\jpwax\source\repos\PROG1224 Lab 2\PROG1224 Lab 2\obj\x86\Debug\filtered.layout.resfiles.intermediate
+C:\Users\jpwax\source\repos\PROG1224 Lab 2\PROG1224 Lab 2\obj\x86\Debug\excluded.layout.resfiles
+C:\Users\jpwax\source\repos\PROG1224 Lab 2\PROG1224 Lab 2\obj\x86\Debug\excluded.layout.resfiles.intermediate
+C:\Users\jpwax\source\repos\PROG1224 Lab 2\PROG1224 Lab 2\obj\x86\Debug\resources.resfiles
+C:\Users\jpwax\source\repos\PROG1224 Lab 2\PROG1224 Lab 2\obj\x86\Debug\resources.resfiles.intermediate
+C:\Users\jpwax\source\repos\PROG1224 Lab 2\PROG1224 Lab 2\obj\x86\Debug\pri.resfiles
+C:\Users\jpwax\source\repos\PROG1224 Lab 2\PROG1224 Lab 2\obj\x86\Debug\pri.resfiles.intermediate
+C:\Users\jpwax\source\repos\PROG1224 Lab 2\PROG1224 Lab 2\obj\x86\Debug\qualifiers.txt
+C:\Users\jpwax\source\repos\PROG1224 Lab 2\PROG1224 Lab 2\obj\x86\Debug\qualifiers.txt.intermediate
+C:\Users\jpwax\source\repos\PROG1224 Lab 2\PROG1224 Lab 2\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\jpwax\source\repos\PROG1224 Lab 2\PROG1224 Lab 2\obj\x86\Debug\ProjectArchitectures.txt
+C:\Users\jpwax\source\repos\PROG1224 Lab 2\PROG1224 Lab 2\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637424959200000000.json
